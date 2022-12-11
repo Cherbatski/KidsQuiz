@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:text="Choisir un sujet"
+        android:textSize="30sp"
+        android:textColor="#0F29A8"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+       />
+
+    <Button
+
+        android:id="@+id/colorsquiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:backgroundTint="#170AD1"
+        android:onClick="colorchange"
+        android:text="couleurs"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:id="@+id/shapes"
+        android:text="formes"
+        android:backgroundTint="#F16BC4"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/animal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:backgroundTint="#379C3C"
+        android:text="animaux"
+        android:textSize="20dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

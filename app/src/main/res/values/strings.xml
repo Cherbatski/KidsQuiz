@@ -1,0 +1,42 @@
+
+<resources>
+    <string name="app_name">volleyproj</string>
+    <string-array name="color_array">
+        <item>rouge</item>
+        <item>vert</item>
+        <item>jaune</item>
+        <item>noir</item>
+        <item>bleu</item>
+        <item>rose</item>
+    </string-array>
+
+    <string-array name="forme_array">
+        <item>rectangle</item>
+        <item>cercle</item>
+        <item>triangle</item>
+    </string-array>
+    <string-array name="animal_array">
+        <item>tigre</item>
+        <item>elephant</item>
+        <item>chien</item>
+    </string-array>
+
+
+    <string name="rectangle">rectangle</string>
+    <string name="triangle">triangle</string>
+    <string name="cercle">cercle</string>
+    <string name="etoile">etoile</string>
+
+    <string name="rouge">rouge</string>
+    <string name="jaune">jaune</string>
+    <string name="vert">vert</string>
+    <string name="bleu">bleu</string>
+    <string name="rose">rose</string>
+    <string name="noir">noir</string>
+
+    <string name="tigre">tigre</string>
+    <string name="elephant">elephant</string>
+    <string name="chien">chien</string>
+
+
+</resources>
